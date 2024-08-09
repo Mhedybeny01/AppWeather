@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button id="getWeather"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <div id="weatherInfo" class="weather-info">
+           
+            <h2 id="cityName">Morroco  <i class="fa-solid fa-location-crosshairs"></i></h2>
+            <img src="sun.png" id="sun">
+
+            <p id="temperature">22°C</p>
+
+            <div id="cls1">
+                <p id="weather" class="p1">8.55km/h</p>
+                <img src="win.png " id="speed">
+            </div>
+            <div id="cls2">
+                <p id="humidity">22%</p>
+                <img src="wth.png" id="nisba">
+            </div>
+
+           
+            
+          
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
